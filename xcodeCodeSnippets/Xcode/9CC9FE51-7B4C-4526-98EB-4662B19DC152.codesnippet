@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uibuttonCreate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#btn#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+&lt;#btn#&gt;.frame = CGRectMake(&lt;##&gt;, &lt;##&gt;, &lt;##&gt;, &lt;##&gt;);
+&lt;#btn#&gt;.backgroundColor = [UIColor clearColor];
+    [&lt;#btn#&gt; setImage:[UIImage imageNamed:@"&lt;#btn#&gt;"] forState:UIControlStateNormal];
+[&lt;#btn#&gt; addTarget:self action:@selector(&lt;#btnTaped:#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9CC9FE51-7B4C-4526-98EB-4662B19DC152</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>uibuttonCreate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
